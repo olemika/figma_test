@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">figma</string>
+    <string name="donations">Пожертвования</string>
+    <string name="start_donation">У Вас пока нет сборов.\nНачните доброе дело.</string>
+    <string name="create_collection_btn">Создать сбор</string>
+    <string name="type_of_collection">Тип сбора</string>
+    <string name="when_goal_exist">Когда есть определённая цель</string>
+</resources>
