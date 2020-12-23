@@ -5,4 +5,7 @@
     <string name="create_collection_btn">Создать сбор</string>
     <string name="type_of_collection">Тип сбора</string>
     <string name="when_goal_exist">Когда есть определённая цель</string>
+    <string name="target_collect">Целевой сбор</string>
+    <string name="Dalee">Далее</string>
+    <string name="regular_collect">Регулярный сбор</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.example.figma
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
@@ -23,6 +24,14 @@ class ChooseTypeActivity: AppCompatActivity() {
 
         backBtn.setOnClickListener {
             this.finish();
+        }
+        targetClct.setOnClickListener{
+            val intent = Intent(this, TargetFormActivity::class.java)
+            startActivity(intent);
+        }
+        regularClct.setOnClickListener{
+            val intent = Intent(this, RegularFormActivity::class.java)
+            startActivity(intent);
         }
     }
 }

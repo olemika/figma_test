@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ChooseTypeActivity"/>
+        <activity android:name=".TargetFormActivity"/>
+        <activity android:name=".RegularFormActivity"/>
+        <activity android:name=".TargetDopActivity"/>
     </application>
 
 </manifest>

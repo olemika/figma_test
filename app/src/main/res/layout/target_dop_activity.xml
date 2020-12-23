@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/top_panel3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="13.5dp"
+            android:layout_marginTop="56.5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/icon_up_back3"
+                android:layout_width="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_height="20dp"
+                android:background="@drawable/ic_icon_up_to_back"
+                />
+
+            <TextView
+                android:layout_marginLeft="85dp"
+                android:layout_marginRight="108dp"
+                android:textSize="21dp"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:singleLine="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Дополнительно"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/separate_line"
+            android:layout_width="350dp"
+            android:background="#D7D8D9"
+            android:layout_height="0.33dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@id/top_panel3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textSize="14sp"
+            android:textColor="#6D7885"
+            android:text="Автор"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"/>
+        <LinearLayout
+            android:background="@drawable/background_edit_text"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <TextView android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="20dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:text="Майкл Скотт" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/ic_downto"/></LinearLayout>
+        <TextView
+            android:layout_marginTop="26dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textSize="14sp"
+            android:textColor="#6D7885"
+            android:text="Сбор завершится"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"/>
+
+        <RadioGroup
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/tar_radioButton1"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:padding="7dp"
+                android:buttonTint="#3F8AE0"
+                android:checked="true"
+                android:layout_height="wrap_content"
+                android:text="Когда соберём сумму" />
+
+            <RadioButton
+                android:id="@+id/tar_radioButton2"
+                android:padding="7dp"
+                android:layout_width="match_parent"
+                android:textSize="16sp"
+                android:buttonTint="#3F8AE0"
+                android:layout_height="wrap_content"
+                android:text="В определённую дату" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:textSize="14sp"
+            android:textColor="#6D7885"
+            android:text="Дата окончания"
+            android:layout_width="match_parent"
+            android:layout_height="18dp"/>
+        <LinearLayout
+            android:background="@drawable/background_edit_text"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:padding="12dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="44dp">
+            <TextView android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="20dp"
+                android:textSize="16sp"
+                android:textColor="#818C99"
+                android:text="Выберите дату" />
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="9dp"
+                android:src="@drawable/ic_downto"/></LinearLayout>
+
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/t_create_clct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="13dp"
+        android:layout_marginBottom="46dp"
+        android:text="Создать сбор"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_big"/>
+
+
+
+
+
+
+</RelativeLayout>
